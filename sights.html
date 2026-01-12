@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>Taniti information</title>
+    </head>
+    <body>
+        <header>
+            <h1>Tanitian Attractions!</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="sights.html">Sights</a></li>
+                <li><a href="transport.html">Transport</a></li>
+                <li><a href="stay.html">Stay</a></li>
+                <li><a href="food.html">Food</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="raft">
+                <h3>Beaches</h3>
+                <p>Beach time is both an enjoyable time filler and one of the best ways to relax and recover from some of the other adventures of the island. The most popular beaches on the island are those around Yellow Leaf Bay. Yellow Leaf Bay has sandy beaches and is the central hub of the island.</p>
+            </div>
+            <div class="raft">
+                <h3>Rainforest</h3>
+                <p>The rainforest of the island is one of the most popular attractions. The rainforest is quite an experience all by itself between amazing sight seeing, and some exquisite opportunities for animal observation. Within the rainforest is a zipline adventure that makes for an even more exciting way to experience it.</p>
+            </div>
+            <div class="raft">
+                <h3>Volcano</h3>
+                <p>Taniti island is home to a small active volcano. <a href="#">Feed Pak Fi</a> is a group of volcanologists who both study and run educational tours of the volcano. Taking a full day tour with volcanologists is a monumental experience of sight seeing, learning, and a moderate hike.</p>
+            </div>
+            <div class="raft">
+                <h3>Snorkeling</h3>
+                <p><a href="#">Sea-Scapes</a> is a snorkeling school offering courses in snorkeling with PADI instructors. The courses are designed for those with as basic a skillset as to be comfortable in water, all the way up to those who are ready to pursue scuba adventures. Amatuer snorkeling can be easily accomplished at Yellow Leaf Bay also. </p>
+                <img src="PADI.png" alt="source: PADI.com">
+            </div>
+            <div class="raft">
+                <h3>Museum</h3>
+                <p>The local history museum exhibits the history and culture of local fish, and fishermen over time. Fishery is still a major economical backbone of Taniti, even as tourism continues to grow. There is also a large rice farming exhibit that highlights the agricultural background central to the island's history.</p>
+            </div>
+        </div>
+        <footer>
+            <button class="formButton" onclick="showContactForm()">Contact Us</button>
+            <div class="contactForm" id="contact">
+                <form action="#" class="formPopup">
+                    <h3>Your contact information:</h3>
+                    <label for="email">Email:</label>
+                    <input type="text" placeholder="id@domain.type" name="email" required>
+                    <br><label for="QC">Question/Comment:</label><br>
+                    <input type="textarea" placeholder="Please let us know what we can assist you with here." name="QC" required><br>
+                    <button type="submit" class="submitbutton">Submit</button>
+                    <button type="button" class="cancelbutton" onclick="hideContactForm()">Cancel</button>
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>

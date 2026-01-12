@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Taniti information</title>
+    </head>
+    <body>
+        <header>
+            <h1>Eating in Taniti!</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sights.html">Sights</a></li>
+                <li><a href="transport.html">Transport</a></li>
+                <li><a href="stay.html">Stay</a></li>
+                <li><a class="active" href="food.html">Food</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="raft">
+                <h3>Local Flavor</h3>
+                <p>Of the 10 restaurants on the island, 5 serve a local cuisine. Each of these specialize in various local fish and rice dishes. The current featured restaurant is also home to the most popular dance floor on the island aptly named <a href="#">Akiu no Taue Odori</a> which translates as "rice planting dance" is an experience.</p>
+            </div>
+            <div class="raft">
+                <h3>Pan-Asian</h3>
+                <p>There are two Asian restaurants. <a href="#">Thai Landing</a> has a relaxing lounge atmosphere with many flavorful noodle and rice based dishes. The second has India-inspired flavors. Come enjoy some awakening flavors at <a href="#">Curry Den</a>. Their Vindaloo may be the best taste experience on the island.</p>
+            </div>
+            <div class="raft">
+                <h3>American Style</h3>
+                <p>The island has three American Style restaurants. <a href="#">Burger Bar</a> is a popular meeting spot with traditional burger fair, and with its own brewery. A little more upscale dining with an obvious star dish at <a href="#">Steaked Claim</a>. A more relaxed, fast and easy stop at <a href="#">Willie's Diner</a> will hit the spot.</p>
+            </div>
+            <div class="raft">
+                <h3>Grocery Options</h3>
+                <p>There are a number of local holidays that close the local attractions and restaurants. There are two large supermarkets with wide offerings of most of the things you forgot to bring. There are also two smaller grocers with more local offerings, and one 24 hour convenience store.</p>
+            </div>
+            <div class="raft">
+                <h3>Alcohol</h3>
+                <p>Legal drinking age on the island of Taniti is 18. This is not strictly enforced. The rule that is strictly enforced is that alcohol is neither served nor sold from Midnight to 9:00a.m.</p>
+            </div>
+        </div>
+        <footer>
+            <button class="formButton" onclick="showContactForm()">Contact Us</button>
+            <div class="contactForm" id="contact">
+                <form action="#" class="formPopup">
+                    <h3>Your contact information:</h3>
+                    <label for="email">Email:</label>
+                    <input type="text" placeholder="id@domain.type" name="email" required>
+                    <br><label for="QC">Question/Comment:</label><br>
+                    <input type="textarea" placeholder="Please let us know what we can assist you with here." name="QC" required><br>
+                    <button type="submit" class="submitbutton">Submit</button>
+                    <button type="button" class="cancelbutton" onclick="hideContactForm()">Cancel</button>
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>

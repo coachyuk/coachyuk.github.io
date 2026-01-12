@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Taniti information</title>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to Taniti!</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="sights.html">Sights</a></li>
+                <li><a href="transport.html">Transport</a></li>
+                <li><a href="stay.html">Stay</a></li>
+                <li><a href="food.html">Food</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="raft">
+                <h3>Geography</h3>
+                <p>Taniti is a small island of less than 500 square miles in the Pacific. It has a small safe harbor for sea transport. There are many attractive geographical features including sandy beaches, tropical rainforests, and even an active volcano.</p>
+            </div>
+            <div class="raft">
+                <h3>History</h3>
+                <p>The island of Taniti has historically lived off of fishing and agriculture. Visitors can experience the long developed cultural expertise in the local restaurants which are dominated with fish and rice cuisine. </p>
+            </div>
+            <div class="raft">
+                <h3>Currency</h3>
+                <p>The U.S. Dollar is the local currency which will be accepted throughout the island. Many local businesses will also accept Euros and Yen. Major credit cards are widely used and accepted. Several local banks support currency exchange.</p>
+            </div>
+            <div class="raft">
+                <h3>Holidays</h3>
+                <p>There are many local holidays celebrated throughout the island. During these holidays the local attractions and the local restraurants will be closed and unavailable. Visitors need to be aware of any holidays during their visit and plan accordingly.</p>
+            </div>
+            <div class="raft">
+                <h3>Medical</h3>
+                <p>Medical facilities on the island include one hospital which has many multi-lingual employees. There are also several medical clinics which will serve smaller and more diverse needs. Violent crime is rare on the island.</p>
+            </div>
+            <div class="raft">
+                <h3>Language</h3>
+                <p>Visitors of Taniti will mostly be able to communicate in English during their visits. English is less used in the more rural parts of the island, as well as with some of the older local population.</p>
+            </div>
+        </div>
+        <footer>
+            <button class="formButton" onclick="showContactForm()">Contact Us</button>
+            <div class="contactForm" id="contact">
+                <form action="#" class="formPopup">
+                    <h3>Your contact information:</h3>
+                    <label for="email">Email:</label>
+                    <input type="text" placeholder="id@domain.type" name="email" required>
+                    <br><label for="QC">Question/Comment:</label><br>
+                    <input type="textarea" placeholder="Please let us know what we can assist you with here." name="QC" required><br>
+                    <button type="submit" class="submitbutton">Submit</button>
+                    <button type="button" class="cancelbutton" onclick="hideContactForm()">Cancel</button>
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>

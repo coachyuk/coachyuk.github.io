@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Taniti information</title>
+    </head>
+    <body>
+        <header>
+            <h1>Tanitian Transport!</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sights.html">Sights</a></li>
+                <li><a class="active" href="transport.html">Transport</a></li>
+                <li><a href="stay.html">Stay</a></li>
+                <li><a href="food.html">Food</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="raft">
+                <h3>Flights</h3>
+                <p>Flying into Taniti is the most common way to get here. The airport in Taniti is relatively small and currently only serves smaller aircraft. There are plans for that to change in the near future. The airport is also the central hub for car rental options if that is the desired plan for transportation around the island while you're here.</p>
+            </div>
+            <div class="raft">
+                <h3>Cruises</h3>
+                <p>There is a small cruise ship that docks in Yellow Leaf Bay weekly. <a href="#">Pacific Island Cruises</a> is small outfit that has been serving the local area for a long time. It is not uncommon to catch a week on the island as part of a larger cruise based vacation plan.</p>
+            </div>
+            <div class="raft">
+                <h3>Busses/Taxis</h3>
+                <p>Taniti City has public busses which opperate from 5:00am to 11:00pm every day. The remainder of the island utilizes private buses. <a href="#">Taniti Transportation Authority</a> posts the bus schedules to help plan out adventures by bus. There are also available within Taniti City.</p>
+            </div>
+            <div class="raft">
+                <h3>Bicycles</h3>
+                <p>There are many options renting bicycles by the day, by the week, and even by the hour. The key piece to remember is that a helmet law is strictly enforced. <a href="#">The Wheel to Fortune</a> is a fun choice that even offers tandem bicycles, unicycles, and a lot of other off the beaten path options that are well within a tight budget. </p>
+            </div>
+            <div class="raft">
+                <h3>Pedestrian</h3>
+                <p>Taniti is a small island of less than 500 square miles, however that is a much bigger space to cover than it sounds if you're solely walking. It is very easy to plan adventure filled days without needing major transportation. There are also many day use options that keep the faster than pedestrian options very affordable also.</p>
+            </div>
+        </div>
+        <footer>
+            <button class="formButton" onclick="showContactForm()">Contact Us</button>
+            <div class="contactForm" id="contact">
+                <form action="#" class="formPopup">
+                    <h3>Your contact information:</h3>
+                    <label for="email">Email:</label>
+                    <input type="text" placeholder="id@domain.type" name="email" required>
+                    <br><label for="QC">Question/Comment:</label><br>
+                    <input type="textarea" placeholder="Please let us know what we can assist you with here." name="QC" required><br>
+                    <button type="submit" class="submitbutton">Submit</button>
+                    <button type="button" class="cancelbutton" onclick="hideContactForm()">Cancel</button>
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>
